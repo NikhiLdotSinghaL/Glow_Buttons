@@ -1,0 +1,87 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(22, 1, 1);
+}
+
+#one, #three{
+    background: none;
+    color: lightyellow;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+#one:hover{
+    border-color: rgb(166, 245, 113); 
+    box-shadow: 0 0.5em 2em -0.8em rgb(166, 245, 113);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+#three:hover{
+    border-color: rgb(166, 245, 113); 
+    box-shadow: 0 0.5em 2em -0.8em rgb(166, 245, 113);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+div{
+    padding-left: 50px;
+}
+
+#two{
+    background: none;
+    color: rgb(199, 199, 13);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+#two:hover{
+    border-radius: 10%;
+    box-shadow: 0 0.5em 2em 0.5em rgb(195, 248, 159);
+    transform: skewx(-0.5em);
+    cursor: crosshair;
+}
+
+#four{
+    background: none;
+    color: rgb(199, 199, 13);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+#four:hover{
+    border-radius: 10%;
+    box-shadow: 0 0.5em 2em 0.5em rgb(195, 248, 159);
+    transform: skewx(-0.5em);
+    cursor: crosshair;
+}
+
+#five{
+    background: none;
+    color: rgb(199, 199, 13);
+    /* border: 2px solid; */
+    /* padding: 1em 2em; */
+    /* font-size: 1em; */
+    transition: all 0.3s;
+}
+
+#five:hover{
+    /* border-radius: 10%; */
+    box-shadow: 0 0.5em 2em 0.5em rgb(69, 8, 235);
+    transform: skewx(-0.5em);
+    cursor: crosshair;
+}
+
+
+
+
